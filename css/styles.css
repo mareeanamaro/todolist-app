@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;;
+  background: #dfdfdf;
+  text-align: center;
+}
+.container {
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: white;
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+li {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  padding: 4px 15px 4px 5px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #fc999b;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#button:hover{
+  cursor: pointer;
+  opacity: .8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: black;
+}
+
+ol li:nth-child(even) {
+  background: #dfdfdf;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.delete {
+  display: none;
+}
+
+li > deleteButton {
+  background: none;
+  border: none;
+  float: right;
+  color: #c77e80;
+  font-weight: 800;
+}
