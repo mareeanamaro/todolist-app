@@ -1,4 +1,6 @@
-# Project Description
+# To-do List
+
+## Project Description
 This project was part of the Career Foundry Full Stack Web Development course. It's a small web application with HTML, CSS, and JavaScript meant to make me familiar with jQuery concepts.
 
 This is a Mini To Do List App. The user can add and remove items, as well as strike through items from the list. Also, the items on the list can be ordered.
@@ -13,7 +15,7 @@ This app was built as part of the Career Foundry Full Stack Web Development Crou
 
 ![Screenshot showing the To-Do list.](./screenshot.png)
 
-## Project Dependencies
+## Technologies Used
 Javascript ES6, jQuery
 
 ## Links
